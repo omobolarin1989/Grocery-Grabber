@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+        font-family: 'Roboto', sans-serif;
+
+}
+
+header {
+    background-color: #2E7D32;
+
+    color: white;
+}
+
+.field-set{
+
+}
+
+main{
+    background-color: #F1F8E9;
+}
+
+main h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+#item-list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#item-container{
+    width: 70%;
+    justify-content: space-between;
+    /* margin: o auto; */
+    align-items: center;
+    
+}
+
+
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    margin-block: 20px;
+}
+
+h2{
+    margin-block: 10px;
+}
+
+#field-set #input-field{
+  background-color: goldenrod;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 30px;
+}
+
+#field-set h3{
+    color: Gold;
+}
+
+#field-set #input-field::placeholder{
+    color: azure;
+    font-weight: bold;
+}
+
+#field-set h3{
+    margin-bottom: 20px;
+}
+
+#field-set #add-button{
+    background-color: #FFA726;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 30px;
+    color: #333333;
+    font-weight: bolder;
+}
+
+#field-set #add-button:hover{
+        background-color: #FB8C00;
+
+}
+
+
+
+
+
+
+
